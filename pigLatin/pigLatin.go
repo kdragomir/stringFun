@@ -46,7 +46,6 @@ func pigify(sentence string)(pigLatinSentence string){
       wordsArray[i]= manipulatedTempString
     }
     pigLatinSentence = pigLatinSentence +" "+ wordsArray[i]
-    fmt.Println(pigLatinSentence)
   }
   return pigLatinSentence
 }
